@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Basic styling for the whole page */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #74A12E;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.book {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-content {
+  flex: 1;
+}
+
+.book-pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.book-page {
+  width: 100%; /* Full width for each video page */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+}
+
+.book-page iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pdf-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio placeholder */
+  overflow: hidden;
+}
+
+.pdf-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.control-btn {
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #74A12E;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
