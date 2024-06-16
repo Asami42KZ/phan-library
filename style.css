@@ -94,17 +94,18 @@ body {
 
 .book-page {
   width: 100%;
-  padding-bottom: 56.25%;
-  /* 16:9 aspect ratio */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   position: relative;
+  overflow: hidden; /* Ensures iframe does not overflow */
 }
 
 .book-page iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Fill parent container */
+  height: 100%; /* Fill parent container */
+  border: none; /* Remove default iframe border */
 }
 
 .control-btn {
