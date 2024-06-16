@@ -6,33 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Phan's Library</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="header">
+  <header class="header bg-success text-white text-center py-3">
     <h1>Phan's Library</h1>
   </header>
-  <div class="content">
-    <div class="directory">
-      <h2>Directory</h2>
-      <ul class="category-list">
-        <!-- Categories and videos will be dynamically loaded here -->
-      </ul>
-    </div>
-    <div class="book">
-      <button id="prevBtn" class="control-btn"><i class="fas fa-chevron-left"></i></button>
-      <div class="book-content">
-        <div class="book-pages">
-          <!-- Video will be dynamically loaded here -->
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-3 col-12 directory p-3">
+        <h2 class="text-center">Video Directories</h2>
+        <br>
+        <div class="search-container">
+          <input type="text" id="videoSearch" placeholder="Search Video Titles Here..." class="form-control search-bar">
         </div>
+        <br>
+        <ul class="category-list list-unstyled">
+          <!-- Categories and videos will be dynamically loaded here -->
+        </ul>
       </div>
-      <button id="nextBtn" class="control-btn"><i class="fas fa-chevron-right"></i></button>
+
+      <div class="col-md-9 col-12 book d-flex align-items-center justify-content-center">
+        <button id="prevBtn" class="control-btn btn btn-light"><i class="fas fa-chevron-left"></i></button>
+        <div class="book-content flex-fill px-3">
+          <div class="book-pages">
+            <!-- Video will be dynamically loaded here -->
+          </div>
+        </div>
+        <button id="nextBtn" class="control-btn btn btn-light"><i class="fas fa-chevron-right"></i></button>
+      </div>
     </div>
   </div>
-  <footer class="footer">
+
+  <footer class="footer bg-success text-white text-center py-3 mt-4">
     <p>&copy; <span id="copyright-year"></span> Phan's Library. All rights reserved.</p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="main.js"></script>
 </body>
 
