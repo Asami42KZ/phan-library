@@ -28,6 +28,101 @@ let videoCategories = [
         url: 'https://www.youtube.com/embed/PPswJFlmQp0?si=RJsQOBH_hizCLhp0'
       }
     ]
+  },
+  {
+    categoryName: 'Llama Llama',
+    videos: [
+      {
+        title: 'Llama Llama Red Pajama',
+        url: 'https://www.youtube.com/embed/K7evZs9iRoU?si=6xsQ69nXSyOBMrRZ'
+      },
+      {
+        title: 'Llama Llama Home With Mama',
+        url: 'https://www.youtube.com/embed/2Ib6i1AL3IM?si=SWUJs4vAKPcvQiVL'
+      },
+      {
+        title: 'Llama Llama Time To Share',
+        url: 'https://www.youtube.com/embed/ZpxTIOtd2d4?si=Wt1u1hraUzpEhrQa'
+      },
+    ]
+  },
+  {
+    categoryName: 'No, David!',
+    videos: [
+      {
+        title: 'Grow Up, David!',
+        url: 'https://www.youtube.com/embed/LrqLi8Aca2A?si=k_MbfK6l-0XZNjOX'
+      },
+      {
+        title: 'David Gets in Trouble',
+        url: 'https://www.youtube.com/embed/_7PYi7ihIpE?si=yRGWVa_wRLZqwqed'
+      },
+      {
+        title: 'No, David!',
+        url: 'https://www.youtube.com/embed/pIvm_8u0U1I?si=fvWSOdScoj_p1ACl'
+      },
+    ]
+  },
+  {
+    categoryName: 'Pete the Cat',
+    videos: [
+      {
+        title: 'Pete the Cat and the Perfect Pizza Party',
+        url: 'https://www.youtube.com/embed/yrVrFBGi43w?si=XrJsNYLEoCoU36hz'
+      },
+      {
+        title: 'Pete the Cat and the Bad Banana',
+        url: 'https://www.youtube.com/embed/KQKiwFGCywA?si=TiYDZyl-qZ35rS-X'
+      },
+      {
+        title: 'Pete the Cat and His Four Groovy Buttons',
+        url: 'https://www.youtube.com/embed/jouIlj6xp1M?si=C6FNGhERiRZHnLDf'
+      },
+      {
+        title: 'Pete the Cat: Scuba-Cat',
+        url: 'https://www.youtube.com/embed/vf_Yg_5J6T4?si=oom5URliIKgAhqAQ'
+      },
+      {
+        title: 'Pete the Cat: I Love My White Shoes',
+        url: 'https://www.youtube.com/embed/fj_z6zGQVyM?si=HZal3OqoDGeI4hVg'
+      },
+      {
+        title: 'Pete the Cat: Super Pete',
+        url: 'https://www.youtube.com/embed/t9nIlLxxBxw?si=LvMbhXD_h76AICMv'
+      },
+      {
+        title: 'Pete the Cat: Robo-Pete',
+        url: 'https://www.youtube.com/embed/ltuuKMpsQbs?si=usKZwvPNAxD_LOpS'
+      },
+      {
+        title: 'Pete the Cat Snow Daze',
+        url: 'https://www.youtube.com/embed/WQ92ehmuxjs?si=njXca8zKPCCPPiqS'
+      },
+      {
+        title: 'Pete the Cat: Big Easter Adventure',
+        url: 'https://www.youtube.com/embed/ubTNaQsy8Fg?si=AYH0CsEgqMQGfsOJ'
+      },
+      {
+        title: 'Pete the Cat and the Itsy Bitsy Spider',
+        url: 'https://www.youtube.com/embed/daxyn4uW-WI?si=jNF1KP1d03R8tWKw'
+      },
+      {
+        title: 'Pete the Cat: Five Little Pumpkins',
+        url: 'https://www.youtube.com/embed/ZGnXklGW3_8?si=BEMLs0mmZHS3zmhE'
+      },
+      {
+        title: `Pete the Cat's 12 Groovy Days of Christmas`,
+        url: 'https://www.youtube.com/embed/KJZtBoxZTh0?si=kZwgbr_mFzo2XIMc'
+      },
+      {
+        title: 'Pete the Cat and the Tip Top Tree House',
+        url: 'https://www.youtube.com/embed/W-Fax35tKKI?si=aUX1Z3N9ZVmc5u00'
+      },
+      {
+        title: 'Pete the Cat and the Treasure Map',
+        url: 'https://www.youtube.com/embed/rMF8WwKlGHw?si=dl9aDKnMDPKeMbji'
+      }
+    ]
   }
 ];
 
